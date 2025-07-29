@@ -1,5 +1,3 @@
-Here is a complete `README.md` file for your Spring Boot honeypot management project. It includes clear setup instructions for both `./mvnw` and `mvn` commands, explains all API endpoints, and lists prerequisites.
-
 ---
 
 ````markdown
