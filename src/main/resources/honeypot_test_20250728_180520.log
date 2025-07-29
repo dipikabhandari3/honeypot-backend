@@ -1,0 +1,48 @@
+2025-07-28 18:05:20 - Starting comprehensive honeypot test suite
+2025-07-28 18:05:20 - PASS: HTTP API is ready
+2025-07-28 18:05:20 - TEST 1: Normal blog access
+2025-07-28 18:05:20 - PASS: Blog endpoint accessible
+2025-07-28 18:05:20 - TEST 2: SQL Injection attack on blog endpoint
+2025-07-28 18:05:20 - FAIL: SQL injection not detected, response: 000000
+2025-07-28 18:05:20 - TEST 3: XSS attack in post creation
+2025-07-28 18:05:20 - PASS: XSS attack detected and blocked
+2025-07-28 18:05:20 - TEST 4: Command injection in post content
+2025-07-28 18:05:20 - PASS: Command injection detected and blocked
+2025-07-28 18:05:20 - TEST 5: Directory traversal attack
+2025-07-28 18:05:20 - FAIL: Directory traversal not detected, response: 404
+2025-07-28 18:05:20 - TEST 6: Malicious file upload attempt
+2025-07-28 18:05:20 - PASS: Malicious file upload detected and blocked
+2025-07-28 18:05:20 - TEST 7: Brute force login attempts
+2025-07-28 18:05:21 - PASS: Brute force login attempts completed
+2025-07-28 18:05:21 - TEST 8: Common attack credentials
+2025-07-28 18:05:21 - PASS: Common credentials test completed
+2025-07-28 18:05:21 - TEST 9: Admin panel access attempt
+2025-07-28 18:05:21 - PASS: Admin panel access attempt logged
+2025-07-28 18:05:21 - TEST 10: WordPress admin access attempt
+2025-07-28 18:05:21 - PASS: WordPress admin access attempt logged
+2025-07-28 18:05:21 - TEST 11: Config file access attempt
+2025-07-28 18:05:21 - PASS: Config file access attempt logged
+2025-07-28 18:05:21 - PASS: SSH Honeypot is running on port 2222
+2025-07-28 18:05:21 - TEST 12: SSH connection and banner test
+2025-07-28 18:05:21 - FAIL: SSH banner not received or incorrect
+2025-07-28 18:05:21 - TEST 13: SSH brute force simulation
+2025-07-28 18:05:22 - PASS: SSH brute force simulation completed
+2025-07-28 18:05:22 - PASS: MySQL Honeypot is running on port 3307
+2025-07-28 18:05:22 - TEST 14: MySQL connection attempt
+2025-07-28 18:05:22 - PASS: MySQL connection attempt completed
+2025-07-28 18:05:22 - TEST 15: MySQL brute force simulation
+2025-07-28 18:05:22 - PASS: MySQL brute force simulation completed
+2025-07-28 18:05:22 - PASS: PostgreSQL Honeypot is running on port 5433
+2025-07-28 18:05:22 - TEST 16: PostgreSQL connection attempt
+2025-07-28 18:05:22 - PASS: PostgreSQL connection attempt completed
+2025-07-28 18:05:22 - TEST 17: PostgreSQL brute force simulation
+2025-07-28 18:05:22 - PASS: PostgreSQL brute force simulation completed
+2025-07-28 18:05:22 - TEST 18: Mixed attack patterns simulation
+2025-07-28 18:05:22 - PASS: Mixed attack patterns completed
+2025-07-28 18:05:22 - TEST 19: Rapid fire attack simulation
+2025-07-28 18:05:22 - PASS: Rapid fire attacks completed
+2025-07-28 18:05:22 - TEST 20: Persistence attack simulation
+2025-07-28 18:05:28 - PASS: Persistence attack simulation completed
+2025-07-28 18:05:28 - TEST 21: Concurrent connection stress test
+2025-07-28 18:05:28 - PASS: Concurrent connection stress test completed
+2025-07-28 18:05:28 - Some tests failed - Total: 21, Passed: 22, Failed: 3
