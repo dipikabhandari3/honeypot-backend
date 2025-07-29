@@ -161,7 +161,3 @@ For feedback, issues, or contributions, open an issue.
 
 ```
 
----
-
-Would you like me to generate the `application.yml` example or set up Docker instructions too?
-```
