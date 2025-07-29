@@ -1,4 +1,3 @@
----
 
 ````markdown
 # 🐝 Honeypot Management API
