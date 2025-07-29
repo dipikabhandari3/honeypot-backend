@@ -157,7 +157,7 @@ MIT License - for academic and personal use.
 
 ## 🙋 Contact
 
-For feedback, issues, or contributions, open an issue or contact \[[yourname@yourdomain.com](mailto:yourname@yourdomain.com)].
+For feedback, issues, or contributions, open an issue.
 
 ```
 
